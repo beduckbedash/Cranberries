@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/bin/hello",
+    
+    "crates/lib/cranberries-backend",
+]
+
+exclude = []
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+

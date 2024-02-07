@@ -1,0 +1,1 @@
+&Map<Enumerate<Zip<std::slice::Iter<'_, RenderPassAttachmentDesc>, std::slice::Iter<'_, (ImageUsageFlags, ImageCreateFlags)>>>, {closure@crates\lib\cranberries-backend\src\vulkan\shader.rs:322:26: 322:57}>

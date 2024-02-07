@@ -1,0 +1,1 @@
+std::iter::Chain<Map<std::slice::Iter<'_, RenderPassAttachmentDesc>, {closure@crates\lib\cranberries-backend\src\vulkan\shader.rs:354:18: 354:35}>, RenderPassAttachmentDesc>

@@ -1,0 +1,1 @@
+std::result::Result<MutexGuard<'_, HashMap<FramebufferCacheKey, Framebuffer>>, PoisonError<MutexGuard<'_, HashMap<FramebufferCacheKey, Framebuffer>>>>

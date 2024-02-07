@@ -1,0 +1,19 @@
+[package]
+name = "cranberries-backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ash = "0.33"
+ash-window = "0.7"
+image = "0.22"
+winit = "0.20.0"
+anyhow = "1.0"
+num = "0.2"
+memoffset = "0.5.1"
+cgmath    = "0.17.0"
+
+[target.'cfg(target_os = "windows")'.dependencies]
+winapi = { version = "0.3.5", features = ["windef", "libloaderapi"] }
